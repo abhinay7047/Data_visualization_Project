@@ -9,9 +9,6 @@ st.set_page_config(layout='wide')
 # Read the data from the CSV file
 df = pd.read_csv('india.csv')
 
-# Drop duplicate column 'Households with Internet'
-df = df.drop(columns=["Households with Internet","Households with Internet"])
-
 # Set the title of the Streamlit app
 st.title("Welcome to the India")
 
