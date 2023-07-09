@@ -1,9 +1,5 @@
 import pandas as pd
 import numpy as np
-import dash
-import plotly.graph_objs as go
-from dash import html
-from dash import dcc
 import streamlit as st
 import plotly.express as px
 st.set_page_config(layout='wide')
